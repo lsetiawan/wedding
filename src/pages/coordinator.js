@@ -6,7 +6,7 @@ const Coordinator = () => {
         { title: 'Reception Schedule', url: '/' },
         { title: 'Day Schedule', url: '/day-schedule/' },
         { title: 'Ceremony Outline', url: '/ceremony-outline/' },
-        { title: 'Ceremony Venue Layout', url: '/ceremony-layout/' },
+        { title: 'Ceremony Venue Layout', url: '/static/docs/venueplanceremony.pdf' },
         { title: 'Inventory List', url: '/inventory/' },
         { title: 'Setup To Do List', url: '/setup/' },
         { title: 'Tear Down To Do List', url: '/tear-down/' }
