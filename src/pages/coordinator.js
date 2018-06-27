@@ -5,7 +5,10 @@ const Coordinator = () => {
     const pageLinks = [
         { title: 'Reception Schedule', url: '/' },
         { title: 'Day Schedule', url: '/day-schedule/' },
-        { title: 'Ceremony Outline', url: '/ceremony-outline/' }
+        { title: 'Ceremony Outline', url: '/ceremony-outline/' },
+        { title: 'Inventory List', url: '/inventory/' },
+        { title: 'Setup To Do List', url: '/setup/' },
+        { title: 'Tear Down To Do List', url: '/tear-down/' }
     ]
 
     return (

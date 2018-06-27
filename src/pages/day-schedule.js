@@ -66,6 +66,7 @@ class DaySchedule extends React.Component {
   <div>
     <h1>Wedding Day Schedule</h1>
     <h3>Current Time: {this.state.currentTime}</h3>
+    <Link to="/coordinator/">Coordinator Page</Link>
     <table>
       <thead>
         <tr>

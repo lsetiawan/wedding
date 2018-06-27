@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'gatsby-link'
 
 const CeremonyOutline = () => {
     const musicStyle = {
@@ -38,6 +39,7 @@ const CeremonyOutline = () => {
     return (
         <div>
             <h1>Wedding Ceremony Outline</h1>
+            <Link to="/coordinator/">Coordinator Page</Link>
 
             <h2>Family / Groom / Pastor Entrance</h2>
             <span style={musicStyle}>Music: Nuvole bianche</span>
