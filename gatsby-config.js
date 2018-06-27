@@ -3,5 +3,5 @@ module.exports = {
     title: 'Don and Darian\'s Wedding',
   },
   plugins: ['gatsby-plugin-react-helmet'],
-  pathPrefix: `/wedding`,
+  pathPrefix: `/`,
 }

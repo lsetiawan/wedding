@@ -63,7 +63,7 @@ class IndexPage extends React.Component {
         )}
       </tbody>
     </table>
-    <Link to="/">Scroll to top</Link>
+    <Link to="#">Scroll to top</Link>
   </div>
 )}}
 

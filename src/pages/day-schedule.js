@@ -81,7 +81,7 @@ class DaySchedule extends React.Component {
         )}
       </tbody>
     </table>
-    <Link to="/day-schedule/">Scroll to top</Link>
+    <Link to="#">Scroll to top</Link>
   </div>
 )}}
 
