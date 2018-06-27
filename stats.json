@@ -5,8 +5,8 @@
       "path---inventory-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-coordinator-js": [
-      "component---src-pages-coordinator-js-186f056f67e4b2f7d80f.js",
-      "component---src-pages-coordinator-js-186f056f67e4b2f7d80f.js.map"
+      "component---src-pages-coordinator-js-3f950000ce812c2eec3e.js",
+      "component---src-pages-coordinator-js-3f950000ce812c2eec3e.js.map"
     ],
     "path---day-schedule": [
       "path---day-schedule-a0e39f21c11f6a62c5ab.js",
@@ -15,6 +15,10 @@
     "component---src-pages-inventory-js": [
       "component---src-pages-inventory-js-fa19e7e0acff1a88a99a.js",
       "component---src-pages-inventory-js-fa19e7e0acff1a88a99a.js.map"
+    ],
+    "component---src-pages-ceremony-layout-js": [
+      "component---src-pages-ceremony-layout-js-905b4db93553f9e0b7eb.js",
+      "component---src-pages-ceremony-layout-js-905b4db93553f9e0b7eb.js.map"
     ],
     "component---src-pages-index-js": [
       "component---src-pages-index-js-0af117ced8bb8ab8e085.js",
@@ -69,9 +73,9 @@
       "path---setup-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-1698b6fd01e359521a6e.js",
+      "app-612e689decfff2f1057e.js",
       "build-js-styles.css",
-      "app-1698b6fd01e359521a6e.js.map",
+      "app-612e689decfff2f1057e.js.map",
       "build-js-styles.css.map"
     ],
     "path---tear-down": [
@@ -85,6 +89,10 @@
     "component---src-pages-setup-js": [
       "component---src-pages-setup-js-4a8d3e6fd165f89e049b.js",
       "component---src-pages-setup-js-4a8d3e6fd165f89e049b.js.map"
+    ],
+    "path---ceremony-layout": [
+      "path---ceremony-layout-a0e39f21c11f6a62c5ab.js",
+      "path---ceremony-layout-a0e39f21c11f6a62c5ab.js.map"
     ]
   }
 }
