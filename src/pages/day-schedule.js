@@ -40,7 +40,7 @@ const tablebody = [
   { time: '23:30', event: 'Out of the venue!!'}, 
 ]
 
-class SecondPage extends React.Component {
+class DaySchedule extends React.Component {
   constructor(props){
     super(props);
     this.state = {
@@ -84,4 +84,4 @@ class SecondPage extends React.Component {
   </div>
 )}}
 
-export default SecondPage
+export default DaySchedule
