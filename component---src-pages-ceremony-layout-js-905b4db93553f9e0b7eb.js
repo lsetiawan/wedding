@@ -1,2 +1,0 @@
-webpackJsonp([0xb5da12cebbc],{204:function(e,t,a){"use strict";function u(e){return e&&e.__esModule?e:{default:e}}t.__esModule=!0;var n=a(2),l=u(n),o=a(18),d=u(o),r=function(){return l.default.createElement("div",null,l.default.createElement("h1",null,"Ceremony Layout"),l.default.createElement(d.default,{to:"/coordinator/"},"Coordinator Page"),l.default.createElement(d.default,{to:"/static/docs/venueplanceremony.pdf"},"Layout PDF"))};t.default=r,e.exports=t.default}});
-//# sourceMappingURL=component---src-pages-ceremony-layout-js-905b4db93553f9e0b7eb.js.map
