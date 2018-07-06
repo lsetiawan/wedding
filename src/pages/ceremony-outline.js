@@ -15,26 +15,26 @@ const CeremonyOutline = () => {
         'Myron & Pat',
         'Betty Lou & Melvin',
         'Jean',
-        'Marvin', 
+        'Marvin',
         'Bill & Retno',
         'Jennifer',
         'Janet',
         'Pastor Luke & Don'
-    ]
+    ];
 
     const bridalPartyOrder = [
         'Will & Leeanne',
         'Deondre & Rixana',
-        'Carter & Katelyn', 
+        'Carter & Katelyn',
         'Adrian & Keisha',
         'Minh & Samantha'
-    ]
+    ];
 
     const brideOrder = [
-        'Nolan (Ring Bearer)', 
+        'Nolan (Ring Bearer)',
         'Calleigh & Bella (Flower Girls)',
         'Darian, Jim (right), Clay (left)'
-    ]
+    ];
 
     return (
         <div>

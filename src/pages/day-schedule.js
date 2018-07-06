@@ -1,12 +1,11 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import moment from 'moment-timezone'
+import { toHHMMSS, DATE, UNIX_TIME } from '../utils/helpers';
 
-
-const DATE = '2018-07-07'
 const tableheaders = ['Time', 'Event']
 const tablebody = [
-  { time: '07:30', event: 'Start making breakfast' }, 
+  { time: '07:30', event: 'Start making breakfast' },
   { time: '08:00', event: 'Bridesmaids Start getting ready' },
   { time: '09:00', event: 'Darian\'s Hair Appt, Bridal Party Breakfast'},
   { time: '10:00', event: 'Groomsmen Prepare Decorations/Party Supplies to be loaded'},
@@ -38,19 +37,19 @@ const tablebody = [
   { time: '22:20', event: 'Last dance'},
   { time: '22:25', event: 'Send off'},
   { time: '22:30', event: 'Clean up'},
-  { time: '23:30', event: 'Out of the venue!!'}, 
+  { time: '23:30', event: 'Out of the venue!!'},
 ]
 
 class DaySchedule extends React.Component {
   constructor(props){
     super(props);
     this.state = {
-      currentTime: moment.tz('America/Los_Angeles').format('MMMM Do YYYY, h:mm:ss a')
+      timeRemaining: UNIX_TIME - moment().unix()
     }
   }
   updateClock() {
-    this.setState({ 
-      currentTime: moment.tz('America/Los_Angeles').format('MMMM Do YYYY, h:mm:ss a')
+    this.setState({
+      timeRemaining: UNIX_TIME - moment().unix()
     })
   }
 
@@ -63,27 +62,37 @@ class DaySchedule extends React.Component {
   }
   render() {
     return (
-  <div>
-    <h1>Wedding Day Schedule</h1>
-    <h3>Current Time: {this.state.currentTime}</h3>
-    <Link to="/coordinator/">Coordinator Page</Link>
-    <table>
-      <thead>
-        <tr>
-          {tableheaders.map((val, idx) => <th key={idx}>{val}</th>)}
-        </tr>
-      </thead>
-      <tbody>
-        {tablebody.map((val, idx) => 
-          <tr key={idx}>
-            <td>{val.time !== '' ? moment.tz(`${DATE} ${val.time}`, 'America/Los_Angeles').format('h:mm a') : val.time}</td>
-            <td>{val.event}</td>
-          </tr>
-        )}
-      </tbody>
-    </table>
-    <Link to="#">Scroll to top</Link>
-  </div>
-)}}
+      <div>
+        <h1>Wedding Day Schedule</h1>
+        <h3>{
+          (() => {
+            if (this.state.timeRemaining === 0) {
+              return 'It\'s time!';
+            } else {
+              return <div>Countdown Until Wedding:<br />{toHHMMSS(this.state.timeRemaining)}</div>;
+            }
+          })()
+        }</h3>
+        <Link to="/coordinator/">Coordinator Page</Link>
+        <table>
+          <thead>
+            <tr>
+              {tableheaders.map((val, idx) => <th key={idx}>{val}</th>)}
+            </tr>
+          </thead>
+          <tbody>
+            {tablebody.map((val, idx) =>
+              <tr key={idx}>
+                <td>{val.time !== '' ? moment.tz(`${DATE} ${val.time}`, 'America/Los_Angeles').format('h:mm a') : val.time}</td>
+                <td>{val.event}</td>
+              </tr>
+            )}
+          </tbody>
+        </table>
+        <Link to="#">Scroll to top</Link>
+      </div>
+    );
+  }
+}
 
 export default DaySchedule

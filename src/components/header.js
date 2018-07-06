@@ -19,17 +19,17 @@ const Header = ({ siteTitle }) => (
         <Link
           to="/"
           style={{
-            color: 'white',
+            color: '#281211',
             textDecoration: 'none',
           }}
         >
           {siteTitle}
         </Link>
         <span style={{
-          fontFamily: 'Arial', 
-          fontSize: '25px', 
-          marginLeft: '20px', 
-          color: 'white'}}>#dondeevow</span>
+          fontFamily: 'Arial',
+          fontSize: '25px',
+          marginLeft: '20px',
+          color: '#281211;'}}>#dondeevow</span>
       </h1>
     </div>
   </div>
