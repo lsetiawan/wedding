@@ -16,9 +16,13 @@
       "component---src-pages-inventory-js-fa19e7e0acff1a88a99a.js",
       "component---src-pages-inventory-js-fa19e7e0acff1a88a99a.js.map"
     ],
+    "path---social-feed": [
+      "path---social-feed-a0e39f21c11f6a62c5ab.js",
+      "path---social-feed-a0e39f21c11f6a62c5ab.js.map"
+    ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-5f1d6d91f43100b38396.js",
-      "component---src-pages-index-js-5f1d6d91f43100b38396.js.map"
+      "component---src-pages-index-js-28057819ebeefff99555.js",
+      "component---src-pages-index-js-28057819ebeefff99555.js.map"
     ],
     "path---coordinator": [
       "path---coordinator-a0e39f21c11f6a62c5ab.js",
@@ -29,8 +33,8 @@
       "path----3533fb2a9ac0dc15ef94.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-3d2f0a92cfa4ee6ab325.js",
-      "component---src-layouts-index-js-3d2f0a92cfa4ee6ab325.js.map"
+      "component---src-layouts-index-js-2fbb304bd0ea0e5b1191.js",
+      "component---src-layouts-index-js-2fbb304bd0ea0e5b1191.js.map"
     ],
     "path---ceremony-outline": [
       "path---ceremony-outline-a0e39f21c11f6a62c5ab.js",
@@ -69,9 +73,9 @@
       "path---setup-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-563d9f029615db211af8.js",
+      "app-2e233c6fc277dab95d4d.js",
       "build-js-styles.css",
-      "app-563d9f029615db211af8.js.map",
+      "app-2e233c6fc277dab95d4d.js.map",
       "build-js-styles.css.map"
     ],
     "path---tear-down": [
@@ -85,6 +89,10 @@
     "component---src-pages-setup-js": [
       "component---src-pages-setup-js-4a8d3e6fd165f89e049b.js",
       "component---src-pages-setup-js-4a8d3e6fd165f89e049b.js.map"
+    ],
+    "component---src-pages-social-feed-js": [
+      "component---src-pages-social-feed-js-912a5e54068fbe7e730a.js",
+      "component---src-pages-social-feed-js-912a5e54068fbe7e730a.js.map"
     ]
   }
 }
