@@ -61,6 +61,9 @@ class IndexPage extends React.Component {
         }
       })()
     }</h2>
+    <h2>
+      <Link to='/social-feed/'>Social Feed</Link>
+    </h2>
     <h3 id="reception-schedule">Reception Schedule</h3>
     <table>
       <thead>
