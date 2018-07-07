@@ -1,4 +1,4 @@
-export const UNIX_TIME = 1531009800;
+export const UNIX_TIME = 1531008000;
 export const DATE = '2018-07-07';
 
 export const toHHMMSS = (secNum) => {

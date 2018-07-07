@@ -48,7 +48,7 @@ class IndexPage extends React.Component {
     return (
   <div>
     <h1 id="details">
-      When: July 7, 2018 @ 5:30 PM<br />
+      When: July 7, 2018 @ 5:00 PM<br />
       Where: Renton Community Center<br />
       Dress Code: Semi-Formal
     </h1>
