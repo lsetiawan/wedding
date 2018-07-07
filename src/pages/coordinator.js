@@ -1,11 +1,13 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import CeremonyVenuePDF from '../assets/venueplanceremony.pdf';
+import ReceptionVenuePDF from '../assets/reception-venue-layout.pdf';
 
 const Coordinator = () => {
     const pageLinks = [
         { title: 'Reception Schedule', url: '/', asset: false },
         { title: 'Day Schedule', url: '/day-schedule/', asset: false },
+        { title: 'Reception Venue Layout', url: ReceptionVenuePDF, asset: true },
         { title: 'Ceremony Outline', url: '/ceremony-outline/', asset: false },
         { title: 'Ceremony Venue Layout', url: CeremonyVenuePDF, asset: true },
         { title: 'Inventory List', url: '/inventory/', asset: false },
