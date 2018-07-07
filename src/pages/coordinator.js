@@ -10,7 +10,6 @@ const Coordinator = () => {
         { title: 'Reception Venue Layout', url: ReceptionVenuePDF, asset: true },
         { title: 'Ceremony Outline', url: '/ceremony-outline/', asset: false },
         { title: 'Ceremony Venue Layout', url: CeremonyVenuePDF, asset: true },
-        { title: 'Inventory List', url: '/inventory/', asset: false },
         { title: 'Setup To Do List', url: '/setup/', asset: false },
         { title: 'Tear Down To Do List', url: '/tear-down/', asset: false }
     ]
