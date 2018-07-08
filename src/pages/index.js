@@ -54,7 +54,7 @@ class IndexPage extends React.Component {
     </h1>
     <h2>{
       (() => {
-        if (this.state.timeRemaining === 0) {
+        if (this.state.timeRemaining <= 0) {
           return 'It\'s time!';
         } else {
           return <div>Countdown Until Wedding:<br />{toHHMMSS(this.state.timeRemaining)}</div>;
